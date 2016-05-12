@@ -1,0 +1,25 @@
+Generate Keys And Create An SSL Certificate
+
+In this section, you will run through the steps needed to create an SSL certificate. This article explains in detail about SSL certificates on Nginx.
+
+Create the SSL certificate directory and switch to it.
+$mkdir -p /etc/nginx/ssl/example.com
+$cd /etc/nginx/ssl/example.com
+
+#Create a private key:
+$openssl genrsa -des3 -out server.key 2048
+
+#Remove its passphrase:
+$openssl rsa -in server.key -out server.key
+
+#Create a CSR (Certificate Signing Request):
+$openssl req -new -key server.key -out server.csr
+
+#Use this CSR to obtain a valid certificate from a certificate authority or generate a self-signed certificate with the following command.
+$openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+
+
+#Once this is done this directory will contain the following files:
+- server.key - The private key
+- ca-certs.pem - A collection of your CA's root and intermediate certificates. Only present if you obtained a valid certificate from a CA.
+- server.crt - The SSL certificate for your domain name
