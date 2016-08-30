@@ -1,0 +1,13 @@
+# Instalando Pre-requisitos
+$apt-get install build-essential openssl libssl-dev
+
+# Compilando nagios habilitando execução de parametros remotos
+$sudo ./configure --enable-command-args --with-ssl=/usr/bin/openssl --with-ssl-lib=/usr/lib/x86_64-linux-gnu
+$make all
+$make install-plugin
+$make install-daemon
+$make install-daemon-config
+
+# Paramentro habilitando execução de parametros remotos
+$vim /usr/local/nagios/etc/nrpe.cfg
+dont_blame_nrpe=1
