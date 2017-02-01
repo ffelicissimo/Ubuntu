@@ -1,14 +1,14 @@
 #####################################################################################################################################
-//fs/salareuniao /home/fernando/salareuniao cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//fs/users/fi_felicissimo /home/fernando/fernandoml cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//fs/install /home/fernando/install cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//fs/ti/documentos/INFRA/Redes/GRE /home/fernando/gre cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//fs/ti/documentos/INFRA/Redes/GERAL /home/fernando/geral cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//fs/ti/documentos/INFRA/Redes/GRI /home/fernando/gri cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
+//fs/salareuniao /home/fernando/salareuniao cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//fs/users/fi_felicissimo /home/fernando/fernandoml cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//fs/install /home/fernando/install cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//fs/ti/documentos/INFRA/Redes/GRE /home/fernando/gre cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//fs/ti/documentos/INFRA/Redes/GERAL /home/fernando/geral cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//fs/ti/documentos/INFRA/Redes/GRI /home/fernando/gri cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
 #####################################################################################################################################
 
 ###################################################### Source Safe ##################################################################
-//s500ssafe01/vss /home/fernando/vss/desenvolvimento cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//s500ssafe01/vssecommerce /home/fernando/vss/ecommerce cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
-//s500ssafe01/vssproducao /home/fernando/vss/producao cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=107432Fer,iocharset=utf8 0 0
+//s500ssafe01/vss /home/fernando/vss/desenvolvimento cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//s500ssafe01/vssecommerce /home/fernando/vss/ecommerce cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
+//s500ssafe01/vssproducao /home/fernando/vss/producao cifs rw,uid=1000,gid=1000,username=fi_felicissimo,password=senha,iocharset=utf8 0 0
 #####################################################################################################################################
